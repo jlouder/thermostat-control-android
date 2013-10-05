@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:defaultValue="@string/default_url"
+        android:inputType="textUri"
+        android:key="url"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/default_url_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="accept_any_cert"
+        android:summary="@string/accept_any_cert_summary"
+        android:title="@string/accept_any_cert_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="text"
+        android:key="username"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/username_title" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:inputType="textPassword"
+        android:key="password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/password_title" />
+
+</PreferenceScreen>

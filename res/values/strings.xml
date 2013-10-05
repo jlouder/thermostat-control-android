@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main screen -->
+    <string name="app_name">Thermostat Control</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_temp_label">Current temperature:</string>
+    <string name="current_temp">unknown</string>
+    <string name="target_temp_label">Target temperature:</string>
+    <string name="target_temp">unknown</string>
+    <string name="hold_label">Hold:</string>
+
+    <!-- "Set Target Temp" dialog -->
+    <string name="cancel">Cancel</string>
+    <string name="set">Set</string>
+    <string name="set_target_temp_label">Set target temperature</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Settings screen -->
+    <string name="default_url">http://thermostat.example.com/tstat</string>
+    <string name="default_url_title">Thermostat URL</string>
+    <string name="accept_any_cert_title">Accept any certificate</string>
+    <string name="accept_any_cert_summary">For secure URLs, accept
+        any certificate from the server regardless of whether it
+        is signed by a trusted authority.</string>
+    <string name="username_title">Username</string>
+    <string name="password_title">Password</string>
+
+</resources>
