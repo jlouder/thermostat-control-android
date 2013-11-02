@@ -78,6 +78,11 @@ public class MainActivity extends Activity implements NumberPicker.OnValueChange
 			}
 		});
 		progressSpinner = findViewById(R.id.progress);
+		
+		// Refresh the thermostat if we don't have current data.
+		if (targetTemp == 0) {
+			refreshThermostat();
+		}
 	}
 
 	@Override
